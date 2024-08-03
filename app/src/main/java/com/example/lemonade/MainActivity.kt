@@ -89,7 +89,7 @@ fun LemonScreen(
         ) {
             Button(
 
-                onClick = { onClick },
+                onClick = onClick ,
                 shape = RoundedCornerShape(48.dp),
                 colors = ButtonDefaults
                     .buttonColors(Color(0xFFC3ECD2))
